@@ -1,0 +1,82 @@
+.project{
+    text-align: center;
+    padding-top: 15vw;
+    
+}
+
+.project h1{
+    margin-bottom: -2vw;
+}
+
+.project-wrap {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 7vw;
+    flex-wrap: wrap;
+    gap: 2vw;
+    position: relative;
+   
+}
+
+
+
+.github img {
+    width: 4vw;
+}
+
+a .github {
+    width: 2vw;
+    margin: 1vw;
+}
+
+.card-img-top {
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.card-body {
+    text-align: left;
+    padding-top: 2vw;
+    
+}
+
+
+
+.card-body a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.card-body a:hover{
+    color:#ff593c;
+}
+
+
+@media (max-width: 600px) {
+    .card-body a {
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        font-size: 3vw;
+    } 
+    .project h1 {
+        text-align: center;
+        padding-top: 5vw;
+    }
+
+    .project{
+        text-align: center;
+        padding-top: 15vw;
+        
+    }
+    
+    .project h1{
+        margin-bottom: 5vw;
+    }
+}
